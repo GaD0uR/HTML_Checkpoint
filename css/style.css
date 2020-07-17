@@ -1,0 +1,101 @@
+@media (max-width: 600px) {
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS";
+  background-color: #f0f0f0;
+}
+header {
+  position: sticky;
+  top: 0;
+  padding: 0 20px;
+  background-color: #c0c0c050;
+}
+.navmenu {
+  display: flex;
+  justify-content: space-between;
+}
+.liste {
+  list-style: none;
+  display: flex;
+}
+.logo {
+  width: 190px;
+  height: 40px;
+  align-self: center;
+}
+.navmenu a {
+  text-decoration: solid;
+  color: #2c2c2c;
+}
+.navmenu a:hover {
+  text-decoration: underline;
+  color: #c00000;
+}
+.navmenu li {
+  font-weight: 800;
+  font-size: 17px;
+  margin: 10px 0px;
+  padding: 0 8px;
+}
+.btninscrire {
+  border-style: solid;
+  background-color: #b22222;
+  border-color: #b22222;
+  text-decoration-color: white;
+  border-width: 7px;
+  color: white;
+}
+main {
+  padding: 50px 20px;
+}
+.introductionsection {
+  display: flex;
+  justify-content: space-between;
+}
+.text {
+  border-style: solid;
+  background-color: #c0c0c0;
+  border-color: #c0c0c0;
+  border-width: 20px;
+  font-size: 18x;
+  border-radius: 8px;
+}
+h1,
+h3 {
+  color: #b10000;
+}
+.btn1 {
+  border: 1px solid #b22222;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 20px;
+  background-color: #b22222;
+  color: white;
+  padding: 20px 115px;
+}
+.btn1:hover {
+  background-color: #f5f5f5;
+  color: #b22222;
+  padding: 20px 115px;
+}
+footer {
+  text-align: center;
+  padding: 25px 40px;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  margin-bottom: 0;
+}
+.btn2 {
+  border: 1px solid #b22222;
+  border-radius: 6px;
+  background-color: #b22222;
+  color: white;
+  padding: 5px 15px;
+}
+.btn2:hover {
+  background-color: #f5f5f5;
+  color: #b22222;
+  padding: 5px 15px;
+}
